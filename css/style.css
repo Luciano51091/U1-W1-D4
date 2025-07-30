@@ -1,0 +1,114 @@
+.layout {
+  background-image: url(../assets/img/sfondo.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 124%;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 120%;
+}
+
+.header {
+  background: #008899;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 1rem;
+  margin-top: 1rem;
+  box-shadow: 0px 5px 7px #4b4343;
+  p {
+    margin: 0%;
+  }
+}
+
+.logo {
+  width: 67%;
+  padding: 7%;
+}
+
+.general {
+  background-color: white;
+  margin: 4%;
+  box-shadow: 0px 5px 7px #4b4343;
+}
+
+.article {
+  background-color: white;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  h1 {
+    text-align: left;
+    font-weight: 500;
+    font-size: 36px;
+  }
+}
+
+.subtitle {
+  color: grey;
+  p {
+    margin: 0;
+  }
+}
+
+strong {
+  color: purple;
+}
+
+span {
+  background-color: lightgrey;
+  border-radius: 20%;
+}
+
+.titleP {
+  p {
+    margin: 0;
+  }
+}
+caption {
+  p {
+    margin: 0%;
+    font-weight: 600;
+    font-size: ;
+  }
+}
+
+table {
+  th {
+    background-color: #3668de;
+    padding: 10px;
+    color: white;
+    font-weight: 300;
+  }
+  td {
+    text-align: center;
+  }
+}
+
+a {
+  color: #01a2c6;
+}
+
+.senza-pallini {
+  list-style-type: none;
+  padding: 0;
+  color: white;
+  margin: 6%;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-size: 100%;
+}
+
+i.fas.fa-pen::before {
+  margin-right: 4px;
+}
+
+i.fas.fa-clock::before {
+  color: gray;
+  margin-right: 4px;
+}
+
+.videoYoutube {
+  border-radius: 9%;
+  width: 400px;
+}
