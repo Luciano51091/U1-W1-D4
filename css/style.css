@@ -124,7 +124,7 @@ i.fas.fa-clock::before {
 }
 
 .boxNewModel {
-  background: lightgrey;
+  background: rgb(235, 235, 235);
   text-align: center;
   margin-top: 1rem;
   box-shadow: 0px 5px 7px #4b4343;
