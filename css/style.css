@@ -17,6 +17,7 @@
   margin: 1rem;
   margin-top: 1rem;
   box-shadow: 0px 5px 7px #4b4343;
+  background: linear-gradient(to bottom, #009acb, #006788);
 
   p {
     margin: 0%;
@@ -254,8 +255,7 @@ i.fas.fa-clock::before {
   margin-right: 1rem;
   margin-bottom: 2rem;
   box-shadow: 0px 5px 7px #4b4343;
-  box-shadow: inset 4px 4px 10px rg#2C3538ba(215, 26, 26, 0.2);
-
+  background: linear-gradient(to bottom, #005566, #2d353a);
   a {
     color: #fd01fe;
     font-weight: 600;
