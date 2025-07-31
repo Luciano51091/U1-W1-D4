@@ -76,14 +76,20 @@
         <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.</p>
 
         <table>
+          
           <caption>
             <p><em>Diffusione dei CSS</em></p>
           </caption>
+          
+          <thead>
           <tr>
             <th>Anno</th>
             <th>% di utilizzo</th>
             <th>Supporto browsers</th>
           </tr>
+          </thead>
+
+          <tbody>
           <tr>
             <td>2000</td>
             <td>20%</td>
@@ -109,58 +115,84 @@
             <td>100%</td>
             <td>76%</td>
           </tr>
+          <!--riga blu finale-->
+          <tr class="blueRow">
+            <td colspan="3"></td>
+          </tr>
+          </tbody>
         </table>
-        <hr>
-        <p>
+        
+        <p class="tableBottom">
           Un test di validazione potrà essere fatto tramite il <a href="https://jigsaw.w3.org/css-validator/"
             target="_blank">tool online</a> dedicato allo
           scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri
           developers come loro:
         </p>
-        <aside>
+        
           <iframe class="videoYoutube"
             src="https://www.youtube.com/embed/dvOvHXruEDM?si=HWVS_EjY6r_zahJn" title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </aside>
-        <article >
+        
+        <article>
           <div class="boxNewModel">
 
             <h2 class="titleNew">Novità</h2>
-            <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+            <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla <br> nostra newsletter:</p>
   
             <form method="post" action="codice.php" autocomplete="off">
-              <fieldset>
+              
                 <input class="email" type="email" placeholder="inserisci l'email" />
                 <button class="buttonEmail" type="submit" id="send">Iscriviti!</button>
-              </fieldset>
+             
             </form>
           </div>
-          <h2>Articoli correlati</h2>
-          <p><a href="Javascript:avoid(0)">Validare il codice HTML</a></p>
-          <p>Categoria: develop</p>
-          <p>Data: 18-9-2020</p>
-          <p><a href="Javascript:avoid(0)">Correggere la sintassi</a></p>
-          <p>Categoria: develop</p>
-          <p>Data: 16-9-2020</p>
-          <p><a href="Javascript:avoid(0)">Meno Kb nella pagina</a></p>
-          <p>Categoria: ottimizzazione</p>
-          <p>Data: 30-9-2020</p>
-      </div>
-      </article>
+        </article>
+<aside>
+
+  <div class="titleArticle">
+          <p>Articoli correlati</p></div>
+          
+          <div class="boxModel1">
+            <p class="par1">
+              <a href="Javascript:avoid(0)">Validare il codice HTML</a></p>
+            <p class="par2"><i class="fas fa-tag"></i>Categoria: develop</p>
+            <p class="par3"><i class="fas fa-calendar fa-sm"></i>Data: 18-9-2020</p>
+
+          </div>
+
+          <div class="boxModel1">
+            <p class="par1">
+              <a href="Javascript:avoid(0)">Correggere la sintassi</a></p>
+            <p class="par2"><i class="fas fa-tag"></i>Categoria: develop</p>
+            <p class="par3"><i class="fas fa-calendar fa-sm"></i>Data: 16-9-2020</p>
+
+          </div>
+
+         <div class="boxModel3">
+            <p class="par1">
+              <a href="Javascript:avoid(0)">Meno Kb nella pagina</a></p>
+            <p class="par2"><i class="fas fa-tag"></i>Categoria: ottimizzazione</p>
+            <p class="par3"><i class="fas fa-calendar fa-sm"></i>Data: 30-9-2020</p>
+
+          </div>
+
+        </div>
+      </aside>
     </div>
     </div>
   </main>
 
   </div>
   <footer>
-    <p>Blog Epicode&COPY;2024</p>
-
-    <address>
-      Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
-      <a href="mailto:info@epicode.school">info@epicode.school</a>
-    </address>
+    <div class="endPage">
+    
+    <p class="pUp">Blog Epicode&COPY;2021</p>
+        <p class="pDown">Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
+      <a href="mailto:info@epicode.school">info@epicode.school</a></p>
+     
+    </div>
   </footer>
   </div>
 </body>
